@@ -1,0 +1,80 @@
+.main{
+  margin: 0; padding: 0;
+  font-size: 0px;
+}
+
+.propos{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.foreign,.two,.four{
+  display: inline;
+  width: 33.333%;
+  height: 33.333%;
+}
+
+.bike,.boy{
+  display: inline;
+  width: 81.65%;
+  height: 81.65%;
+  float: right;
+}
+
+.fly,.police,.moring{
+  display: inline;
+  width: 33.333%;
+  height: 33.333%;
+}
+
+.fly{
+  width: 33.336%;
+}
+
+.sky{
+  position: relative;
+}
+
+.graduate,.black,.fruit{
+  display: inline;
+  width: 33.333%;
+  height: 33.333%;
+}
+
+.ktv{
+  display: inline;
+  width: 33.4%;
+  height: 33.4%;
+}
+
+.bottom{
+  display: inline;
+  width: 66.6%;
+  height: 66.6%;
+}
+
+.hero-text-container {
+  position: relative;
+}
+
+ .v-align {
+  font-size: 0;
+  text-align: center;
+  white-space: nowrap
+}
+
+.v-align:before {
+  content: ' ';
+  font-size: 0;
+  height: 100%;
+  width: 0;
+  display: inline-block;
+  vertical-align: middle
+} 
+
+.v-align>*:first-child {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+}
