@@ -54,27 +54,3 @@
   height: 66.6%;
 }
 
-.hero-text-container {
-  position: relative;
-}
-
- .v-align {
-  font-size: 0;
-  text-align: center;
-  white-space: nowrap
-}
-
-.v-align:before {
-  content: ' ';
-  font-size: 0;
-  height: 100%;
-  width: 0;
-  display: inline-block;
-  vertical-align: middle
-} 
-
-.v-align>*:first-child {
-  display: inline-block;
-  vertical-align: middle;
-  white-space: normal;
-}
